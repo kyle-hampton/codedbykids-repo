@@ -11,7 +11,6 @@ body{
 .titlebar{
 	border: 2px solid black;
 	/*background-image: url("logo-moblie.png");*/
-	height: 200px;
 	background-repeat: no-repeat;
 	background-color: #2eacc3;
 	text-align: center;
@@ -47,14 +46,17 @@ body{
 .textbox p{font-family: helvetica;
 	text-align: justify;
 	margin: 30px 80px;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding:10px 10px;
+	
+	justify-content: right;
 
 }
 
 #textbox-image{ 
 	float: left;
-	padding: 10px 10px; 
+	padding: 10px 10px;
+	margin-left: 50px;
+	margin-top: 30px;
 }
 .lower-nav nav ul{
 	display:grid;
@@ -73,4 +75,5 @@ body{
 	text-align: center;
 	margin:0 auto;
 	width:100%;
+
 }
