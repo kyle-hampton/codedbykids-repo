@@ -3,6 +3,12 @@
 	flex-direction: column;
 }
 
+.wrapper p {
+	font-size: 24px;
+	color: grey;
+	line-height: 150%;
+}
+
 .section {
 	text-align: center;
 }
@@ -13,6 +19,40 @@
 	margin-bottom: 100px;
 }
 
+#title {
+	width: 35vw;
+}
+
+.section img {
+	width: 100%;
+	height: 350px;
+}
+
 .section p {
-	padding: 50px;
+	padding: 1em;
+}
+
+.lower-nav nav ul{
+	display:grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	padding: 0;
+ }
+.lower-nav li{ border: 2px solid black;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	font-family: helvetica;
+	background-color: grey;
+}
+ .lower-nav{
+	font-size: 30px;
+	background-color: #ed6268;
+	text-align: center;
+	margin:0 auto;
+	width:100%;
+}
+
+@media (max-width: 600px) {
+	#title {
+		width: 50vw;
+	}
 }
