@@ -1,10 +1,12 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;*/
 }
 
-.section{
-	height: 250px;
+.section {
 	text-align: center;
+}
+
+.section p {
+	padding: 50px;
 }
