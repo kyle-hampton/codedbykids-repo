@@ -1,8 +1,11 @@
 
+
 body{
 	padding: 0px;
 	margin:0px;
 }
+
+
 .contact-wrapper{display:flex;
 	flex-direction: column;
 	height: 100%;
@@ -77,3 +80,13 @@ body{
 	width:100%;
 
 }
+
+.logo{ 
+	width: 80%;
+ 	margin: 0 auto;
+ 	 }
+
+
+
+
+
