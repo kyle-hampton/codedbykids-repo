@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #F4F4F4;s
+}
+.content-wrapper{
+  background-color: #F4F4F4;
+}
 /* title / logo */
 .title{
   border: 2px solid #707070;
@@ -16,12 +22,25 @@
   height: 70%;
   margin: 20px auto;
 }
-.chidern-coding{
-  background-image: url('img/children-coding.jpg');
+.child-wrapper{
+  background-image: url('img/ai-artificial-intelligence-code-34676.jpg');
   background-size: 100% 100%;
+  border: 2px solid #707070;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
+.chidern-coding{
+  /*  */
+}
+.future{
+  color: #2EACC3;
+  text-shadow: 1px 1px white;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: monospace;
+}
+
 .text-wrapper{
   margin:  auto;
   justify-content: center;
@@ -34,6 +53,7 @@
   text-align: center;
   background-color: none;
   padding-left: 120px;
+  font-size: 19px;
 
 }
 .icon-1{
@@ -72,9 +92,21 @@
 .text{
   margin: 70px;
 }
-
-
-
+.mission-banner{
+  background-image: url('img/pexels-photo-160107.jpeg');
+  background-size: 100% 100%;
+  border: 2px solid #707070;
+  width: 100%;
+  height: 550px;
+}
+.mission-text{
+  color: #2EACC3;
+  text-shadow: 1px 1px white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 130px;
+  font-family: monospace;
+}
 
 
 
@@ -90,6 +122,7 @@
 	padding: 10px 10px;
 	font-family: helvetica;
 	background-color: grey;
+  list-style: none;
 }
  .lower-nav{
 	font-size: 30px;
@@ -97,4 +130,122 @@
 	text-align: center;
 	margin:0 auto;
 	width:100%;
+}
+
+
+
+
+
+
+@media all and (max-width: 840px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #F4F4F4;s
+  }
+  .content-wrapper{
+    background-color: #F4F4F4;
+  }
+  /* title / logo */
+  .title{
+    border: 2px solid #707070;
+    background-color: #2EACC3;
+    width: 100%;
+    height: 200px;
+  }
+  .logo{
+    background-image: url('img/cbk-logo-6-in-color1.png');
+    background-size: 100% 100%;
+    width: 40%;
+    height: 70%;
+    margin: 20px auto;
+  }
+  .child-wrapper{
+    background-image: url('img/ai-artificial-intelligence-code-34676.jpg');
+    background-size: 100% 100%;
+    border: 2px solid #707070;
+    width: 100%;
+    height: 600px;
+  }
+  .chidern-coding{
+    /*  */
+  }
+  .future{
+    color: #2EACC3;
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: monospace;
+  }
+
+  .text-wrapper{
+    margin:  auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+  }
+  .paragraph{
+    display: flex;
+    text-align: center;
+    background-color: none;
+    padding-left: 120px;
+    font-size: 19px;
+
+  }
+  .icon-1{
+    background-image: url('img/laptop.png');
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    box-shadow: 3px 2px 10px;
+    background-size: 100% 100%;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    padding-right: 120px;
+  }
+  .icon-2{
+    background-image: url('img/analytics.png');
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    box-shadow: 3px 2px 10px;
+    background-size: 100% 100%;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    padding-right: 120px;
+  }
+  .icon-3{
+    background-image: url('img/analytics (1).png');
+    border-radius: 100%;
+    box-shadow: 3px 2px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    padding-right: 120px;
+  }
+  .text{
+    margin: 70px;
+  }
+  .mission-banner{
+    background-image: url('img/pexels-photo-160107.jpeg');
+    background-size: 100% 100%;
+    border: 2px solid #707070;
+    width: 100%;
+    height: 550px;
+  }
+  .mission-text{
+    color: #2EACC3;
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 130px;
+    font-family: monospace;
+  }
+
 }
