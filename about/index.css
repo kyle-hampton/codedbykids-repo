@@ -1,0 +1,18 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	text-align: center;
+}
+
+.title {
+	background-color: #00AFC3;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.section p {
+	padding: 50px;
+}
