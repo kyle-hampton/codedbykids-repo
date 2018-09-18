@@ -123,6 +123,7 @@ body{
 	font-family: helvetica;
 	background-color: grey;
   list-style: none;
+  text-decoration-color: none;
 }
  .lower-nav{
 	font-size: 30px;
