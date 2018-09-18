@@ -127,6 +127,7 @@ body{
 	opacity: 50%;
 	color:white;
   list-style: none;
+  text-decoration-color: none;
 }
  .lower-nav{
 	font-size: 30px;
