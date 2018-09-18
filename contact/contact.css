@@ -14,6 +14,7 @@ body{
 	background-color: #2eacc3;
 	text-align: center;
 	width: 100%;
+
 }
 
 .image1{
@@ -51,8 +52,6 @@ letter-spacing: 5px;
 	text-align: justify;
 	margin: 30px 30px;
 	padding:40px 40px;
-
-	
 	justify-content: right;
 
 }
@@ -66,7 +65,7 @@ letter-spacing: 5px;
 .lower-nav nav ul{
 	display:grid;
 	grid-template-columns: 1fr 3fr 1fr;
-	padding: 0;
+	padding: 0px;
  }
 .lower-nav li{ border: 5px solid white;
 	margin: 10px 10px;
@@ -83,6 +82,8 @@ letter-spacing: 5px;
 	background-color: #ed6268;
 	text-align: center;
 	margin:0 auto;
-	width:100%;
+	width:100%;}
+
+.logo{ width: 50%;
 
 }
